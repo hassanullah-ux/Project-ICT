@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Ullah Shaikh - Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Hassan</div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link" onclick="scrollToSection(event, '#home')">Home</a></li>
+                <li><a href="#about" class="nav-link" onclick="scrollToSection(event, '#about')">About</a></li>
+                <li><a href="#skills" class="nav-link" onclick="scrollToSection(event, '#skills')">Skills</a></li>
+                <li><a href="#services" class="nav-link" onclick="scrollToSection(event, '#services')">Services</a></li>
+                <li><a href="#projects" class="nav-link" onclick="scrollToSection(event, '#projects')">Projects</a></li>
+                <li><a href="#contact" class="nav-link" onclick="scrollToSection(event, '#contact')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hassan Ullah Shaikh</h1>
+                <p class="hero-subtitle">Data Science Student & Creative Developer</p>
+                <p class="hero-description">Passionate about transforming data into insights and creating beautiful
+                    digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" onclick="scrollToSection(event, '#contact')">Contact
+                        Me</a>
+                    <a href="#projects" class="btn btn-secondary" onclick="scrollToSection(event, '#projects')">View
+                        Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Hassan1.jpg" alt="Hassan Ullah Shaikh" class="portrait">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Data Science student with a passion for learning and creating</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Hassan Ullah Shaikh, a dedicated and hardworking Data Science student at FAST-NUCES Karachi.
+                        My journey in technology began with a fascination for how data can tell stories and solve
+                        real-world problems.</p>
+                    <p>Beyond data analysis, I have developed strong skills in front-end development, graphic design,
+                        and photo editing. This unique combination allows me to approach problems from both analytical
+                        and creative perspectives.</p>
+                    <p>I am passionate about continuous learning and constantly expanding my skill set. My goal is to
+                        become a proficient data scientist who can bridge the gap between complex data and meaningful
+                        visual communication.</p>
+                </div>
+                <div class="education-timeline">
+                    <h3 class="timeline-title">Education Journey</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>BS Data Science</h4>
+                            <p class="timeline-institution">FAST-NUCES Karachi</p>
+                            <p class="timeline-year">2025 - Present</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Intermediate</h4>
+                            <p class="timeline-institution">Adamjee Science College</p>
+                            <p class="timeline-year">2022 - 2024</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Matriculation</h4>
+                            <p class="timeline-institution">SM Public Academy</p>
+                            <p class="timeline-year">2020 - 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">A diverse skill set combining technical programming abilities with
+                    creative design expertise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">HTML & CSS</h3>
+                        <p class="skill-level">Beginner</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">JavaScript</h3>
+                        <p class="skill-level">Beginner</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">C Programming</h3>
+                        <p class="skill-level">Moderate</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill progress-primary" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🧠</div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">OOP in C++</h3>
+                        <p class="skill-level">Beginner</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">Graphic Design</h3>
+                        <p class="skill-level">Intermediate</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill progress-primary" style="width: 67%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📸</div>
+                    <div class="skill-info">
+                        <h3 class="skill-name">Photo Editing</h3>
+                        <p class="skill-level">Intermediate</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill progress-primary" style="width: 67%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="competencies">
+                <h3 class="competencies-title">Core Competencies</h3>
+                <div class="competencies-list">
+                    <span class="competency-tag">Problem Solving</span>
+                    <span class="competency-tag">Analytical Thinking</span>
+                    <span class="competency-tag">Data Analysis</span>
+                    <span class="competency-tag">Algorithm Design</span>
+                    <span class="competency-tag">UI/UX Awareness</span>
+                    <span class="competency-tag">Team Collaboration</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Comprehensive digital solutions combining technical expertise with
+                    creative vision</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3 class="service-title">Front-End Development</h3>
+                    <p class="service-description">Creating responsive and interactive websites using HTML, CSS, and
+                        JavaScript. Focus on clean code, user experience, and modern web standards.</p>
+                    <ul class="service-features">
+                        <li>Responsive Web Design</li>
+                        <li>Interactive User Interfaces</li>
+                        <li>Cross-Browser Compatibility</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-description">Professional graphic design services for branding, marketing
+                        materials, and digital assets. Bringing creative visions to life with attention to detail.</p>
+                    <ul class="service-features">
+                        <li>Brand Identity Design</li>
+                        <li>Marketing Materials</li>
+                        <li>Digital Illustrations</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📸</div>
+                    <h3 class="service-title">Photo Editing</h3>
+                    <p class="service-description">Expert photo editing and retouching services to enhance and perfect
+                        your images. From basic adjustments to advanced manipulations.</p>
+                    <ul class="service-features">
+                        <li>Color Correction</li>
+                        <li>Image Retouching</li>
+                        <li>Background Removal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Showcasing practical applications and real-world problem-solving</p>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Tourism Management System</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">C Programming</span>
+                        <span class="project-tag">Menu-Driven</span>
+                        <span class="project-tag">Console Application</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">A comprehensive menu-driven application built in C that helps users
+                        plan their trips efficiently. The system provides an interactive interface for selecting
+                        destinations, attractions, accommodations, and complete travel packages.</p>
+                    <h4 class="project-features-title">Key Features:</h4>
+                    <ul class="project-features">
+                        <li><strong>City Selection:</strong> Browse and choose from multiple tourist destinations</li>
+                        <li><strong>Attraction Planning:</strong> Select popular attractions and points of interest</li>
+                        <li><strong>Hotel Booking:</strong> Choose accommodations based on preferences and budget</li>
+                        <li><strong>Package Management:</strong> Pre-designed tour packages for convenience</li>
+                        <li><strong>Cost Calculator:</strong> Automatic calculation of total trip expenses</li>
+                        <li><strong>User Records:</strong> Store and manage traveler information</li>
+                    </ul>
+                    <h4 class="project-technical-title">Technical Implementation:</h4>
+                    <ul class="project-technical">
+                        <li>Modular design using functions for code reusability</li>
+                        <li>Arrays for efficient data management</li>
+                        <li>Loops for menu navigation and data processing</li>
+                        <li>Decision structures for user choice handling</li>
+                        <li>File handling for data persistence</li>
+                    </ul>
+                    <p class="project-learning">This project demonstrates practical application of fundamental
+                        programming concepts while solving a real-world problem. It showcases my ability to design
+                        intuitive user interfaces and implement complex logic in a structured manner.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">Feel free to reach out through any of these channels</p>
+            </div>
+            <div class="contact-links-container">
+                <div class="info-card">
+                    <div class="info-icon">📧</div>
+                    <h3>Email</h3>
+                    <a href="mailto:hassanullahshaikh01@gmail.com"
+                        class="contact-link">hassanullahshaikh01@gmail.com</a>
+                    <p class="info-description">Send me an email anytime</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📱</div>
+                    <h3>Phone</h3>
+                    <a href="tel:03367773089" class="contact-link">0336-7773089</a>
+                    <p class="info-description">Call or text me</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/hassanullahshaikh" target="_blank" rel="noopener noreferrer"
+                        class="contact-link">github.com/hassanullahshaikh</a>
+                    <p class="info-description">Check out my code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Hassan Ullah Shaikh</h3>
+                    <p>Data Science Student & Creative Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/hassanullahshaikh" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:hassanullahshaikh01@gmail.com">Email</a>
+                    <a href="tel:03367773089">Phone</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Hassan Ullah Shaikh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
