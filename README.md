@@ -1,2 +1,2 @@
 # Project-ICT
-This is my project
+This portfolio website was designed and built as a project for my Information and Communication Technology course.
